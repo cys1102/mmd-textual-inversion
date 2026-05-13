@@ -1,0 +1,13 @@
+accelerate
+datasets
+diffusers>=0.10.0
+huggingface_hub
+numpy
+pandas
+pillow
+pycocotools
+scipy
+torch
+torchvision
+tqdm
+transformers
