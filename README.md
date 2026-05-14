@@ -1,6 +1,6 @@
 # Inversion and Distribution Matching for Few-Shot Learning
 
-This repository contains the minimal experiment code for **Bridging the Gap: Synthetic Data Augmentation through Inversion and Distribution Matching for Few-shot Learning**. The main experiment trains textual-inversion pseudo-token embeddings with an additional distribution-matching loss, controlled by `--dist_match`.
+This repository contains the experiment code for **Bridging the Gap: Synthetic Data Augmentation through Inversion and Distribution Matching for Few-shot Learning**. The main experiment trains textual-inversion pseudo-token embeddings with an additional distribution-matching loss, controlled by `--dist_match`.
 
 ## Code Layout
 
