@@ -2,7 +2,7 @@
 
 This repository contains the experiment code for **Bridging the Gap: Synthetic Data Augmentation through Inversion and Distribution Matching for Few-shot Learning**. The main experiment trains textual-inversion pseudo-token embeddings with an additional distribution-matching loss, controlled by `--dist_match`.
 
-Paper: [ACM DL PDF](https://dl.acm.org/doi/pdf/10.1145/3703412.3703440)
+Paper: [https://dl.acm.org/doi/pdf/10.1145/3703412.3703440](https://dl.acm.org/doi/pdf/10.1145/3703412.3703440)
 
 ## Code Layout
 
