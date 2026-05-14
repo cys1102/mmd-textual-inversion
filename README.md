@@ -68,6 +68,8 @@ The distribution term is implemented near the training loop where `model_pred_ws
 
 ## Citation
 
+Paper: [ACM DL PDF](https://dl.acm.org/doi/pdf/10.1145/3703412.3703440)
+
 If you use this code, cite the paper:
 
 ```bibtex
