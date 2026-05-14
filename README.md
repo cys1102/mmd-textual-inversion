@@ -2,6 +2,8 @@
 
 This repository contains the experiment code for **Bridging the Gap: Synthetic Data Augmentation through Inversion and Distribution Matching for Few-shot Learning**. The main experiment trains textual-inversion pseudo-token embeddings with an additional distribution-matching loss, controlled by `--dist_match`.
 
+Paper: [ACM DL PDF](https://dl.acm.org/doi/pdf/10.1145/3703412.3703440)
+
 ## Code Layout
 
 - `ti_mmd.py`: trains per-class textual-inversion embeddings with the diffusion denoising loss plus the `L_MMD` / distribution-matching term.
@@ -67,8 +69,6 @@ loss = diffusion_mse + dist_match * distribution_matching_loss
 The distribution term is implemented near the training loop where `model_pred_ws` and `target_ws` are compared.
 
 ## Citation
-
-Paper: [ACM DL PDF](https://dl.acm.org/doi/pdf/10.1145/3703412.3703440)
 
 If you use this code, cite the paper:
 
